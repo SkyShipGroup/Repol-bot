@@ -29,5 +29,5 @@ npm i discord.js
 # Гит клон
 
 ```
-git clone https://github.com/SkyShipGroup/RePolitic
+git clone https://github.com/SkyShipGroup/Repol-bot
 ```
