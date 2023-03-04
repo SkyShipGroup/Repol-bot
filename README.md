@@ -1,3 +1,4 @@
+![ggggg](https://user-images.githubusercontent.com/126949734/222923641-897e9367-6944-4dc7-b32c-3e090f34a5d1.png)
 # Библиотеки
 https://socket.dev/npm/package/database-sempai
 https://socket.dev/npm/package/discord.js
