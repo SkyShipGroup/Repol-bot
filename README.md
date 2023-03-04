@@ -1,15 +1,7 @@
 # Библиотеки
-https://socket.dev/npm/package/ascii-table
 https://socket.dev/npm/package/database-sempai
-https://socket.dev/npm/package/axios
-https://socket.dev/npm/package/chalk
 https://socket.dev/npm/package/discord.js
-
-# Функционал beta версии
-`!work` Работа - переменные храняться в database-sempai.
-`!bal` Посмотреть баланс - без пинга возвразает айди автора тем самым сможете чекнуть свой баланс
-`!add, !remove` **Не стабильно** Создания удаления предмета.
-`!buy` ***undefined***.
+https://soket.dev/npm/package/discord-sempai
 
 # Лицензии 
 **Нету**
@@ -19,15 +11,28 @@ https://socket.dev/npm/package/discord.js
 
 # Установка библиотек и клонирования проекта
 ```
-npm i ascii-table
+
 npm i database-sempai
 npm i discord-sempai
-npm i chalk
-npm i axios
 npm i discord.js
 ```
 # Гит клон
 
 ```
 git clone https://github.com/SkyShipGroup/Repol-bot
+```
+# Информация
+
+### Версия бота оффициальная: 
+**0.0.4**
+
+
+# функционал
+
+```
+!work
+!balance
+!help
+!invite
+!quote
 ```
