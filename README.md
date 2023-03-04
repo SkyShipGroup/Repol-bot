@@ -5,7 +5,7 @@ https://socket.dev/npm/package/discord.js
 https://soket.dev/npm/package/discord-sempai
 
 # Лицензии 
-**Нету**
+**Licens Repolitic bot. @ albania**
 
 # При форке
 ***при форке проекта просьба указивать автора.***
