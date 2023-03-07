@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 
 <html>
 
@@ -6,11 +6,121 @@
 
     <meta charset="UTF-8">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Мой сайт</title>
 
-    <link rel="stylesheet" href="style.css">
+    <style>
+
+      * {
+
+        margin: 0;
+
+        padding: 0;
+
+        box-sizing: border-box;
+
+      }
+
+      body {
+
+        font-family: Arial, sans-serif;
+
+      }
+
+      /* Стили для бокового меню */
+
+      .sidebar {
+
+        position: fixed; /* фиксированное положение */
+
+        top: 0;
+
+        left: 0;
+
+        height: 100%;
+
+        width: 200px;
+
+        background-color: #333;
+
+        color: #fff;
+
+        padding: 20px;
+
+        animation: sidebar-animation 0.5s ease-in-out; /* добавленная анимация */
+
+      }
+
+      .sidebar ul {
+
+        list-style: none;
+
+        margin: 0;
+
+        padding: 0;
+
+      }
+
+      .sidebar li {
+
+        margin-bottom: 10px;
+
+      }
+
+      .sidebar a {
+
+        color: #fff;
+
+        text-decoration: none;
+
+      }
+
+      /* Стили для основного содержимого */
+
+      .content {
+
+        margin-left: 200px; /* ширина бокового меню */
+
+        padding: 20px;
+
+      }
+
+      .content h1 {
+
+        font-size: 36px;
+
+        margin-bottom: 20px;
+
+      }
+
+      .content p {
+
+        font-size: 16px;
+
+        line-height: 1.5;
+
+        margin-bottom: 20px;
+
+      }
+
+      /* Анимация для бокового меню */
+
+      @keyframes sidebar-animation {
+
+        from {
+
+          transform: translateX(-220px); /* начальное положение */
+
+        }
+
+        to {
+
+          transform: translateX(0); /* конечное положение */
+
+        }
+
+      }
+
+    </style>
 
   </head>
 
@@ -41,9 +151,3 @@
   </body>
 
 </html>
-
-
-
-    
-
-    
